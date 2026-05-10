@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35222.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/supplystates.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "ff2c4a6aaef8b35c34de5a2f3256acf8a3dbd4ac7c4353a59e641cdf3b96ed36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/supplystates.h"
+          },
+          "hashes": {
+            "sha-256": "c34e3a4e2dc558caa0d911b0cbee35ac1bd874a6a16ccb80b2c96cb337000665"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/state.h"
+          },
+          "hashes": {
+            "sha-256": "f1628413f29dd6f3d149a11162dc917be0d47fbf3114dcd44eacd54476ff11a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/character.h"
+          },
+          "hashes": {
+            "sha-256": "07cbfa30702bc6d13b6c2677f4c9c79f5ed9f34c6fa6cea69296585ac43624af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/npc.h"
+          },
+          "hashes": {
+            "sha-256": "6ec8ec04bf43c6eb73878c545f7dd0bef3622f2c80f82283fafbbd13faa8ec4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/constants.h"
+          },
+          "hashes": {
+            "sha-256": "34608f9132ed13ea5400bc00682e9420024a20a50dd50104497200400115d5a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/eljoh/downloads/graphics/graphics/graphics/world.h"
+          },
+          "hashes": {
+            "sha-256": "820cb5329c2af14a7fb0873a1062de65847aef11c655c713e953d31293b6207e"
+          }
+        }
+      ]
+    }
+  ]
+}
